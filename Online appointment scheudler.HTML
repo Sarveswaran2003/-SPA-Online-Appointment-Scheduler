@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saloon SPA</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Saloon SPA</h1>
+    
+    <label for="service">Select a Service:</label>
+    <select id="service">
+      <option value="haircut">Haircut</option>
+      <option value="massage">Massage</option>
+      <option value="facial">Facial</option>
+    </select>
+    
+    <label for="date">Select a Date:</label>
+    <input type="date" id="date" min="2024-06-25" required>
+    
+    <label for="time">Select a Time:</label>
+    <input type="time" id="time" required>
+    
+    <button onclick="bookAppointment()">Book Appointment</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* Background image */
+    background-image: url('spa-background.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  select, input[type="date"], input[type="time"], button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+    color: #999;
+    cursor: not-allowed;
+  }
+ 
+  bg_image{
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fnohat.cc%2Ff%2Fspa-background%2F4727966604984320-201809070422.html&psig=AOvVaw25zCtwSbHO4mtseCXhJB5W&ust=1719307905204000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCIi4yZj384YDFQAAAAAdAAAAABAJ);
+  }
